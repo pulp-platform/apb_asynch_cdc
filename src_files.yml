@@ -1,0 +1,9 @@
+apb_cdc_4_phase:
+  incdirs: [
+    ../../rtl/includes,
+  ]
+  files: [
+    RTL/apb_cdc.sv,
+    RTL/apb_master_asynch.sv,
+    RTL/apb_slave_asynch.sv,
+  ]
