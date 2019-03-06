@@ -94,7 +94,7 @@ module apb_cdc
      .clk             ( src_clk        ),
      .rst_n           ( src_rst_n      ),
 
-     // SLAVE PORT
+     // SLAVE SYNCH PORT
      .PADDR_i         ( src_PADDR_i    ),
      .PWDATA_i        ( src_PWDATA_i   ),
      .PWRITE_i        ( src_PWRITE_i   ),
@@ -105,7 +105,7 @@ module apb_cdc
      .PSLVERR_o       ( src_PSLVERR_o  ),
 
 
-     // Mastwe ASYNCH PORT
+     // MASTER ASYNCH PORT
      .asynch_req_o    ( asynch_req     ),
      .asynch_ack_i    ( asynch_ack     ),
      .async_PADDR_o   ( async_PADDR    ),
