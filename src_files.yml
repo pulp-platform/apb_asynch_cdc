@@ -7,18 +7,3 @@ apb_cdc_4_phase:
     RTL/apb_master_asynch.sv,
     RTL/apb_slave_asynch.sv,
   ]
-  jg_slint_top_name: [
-    apb_cdc
-  ]
-  jg_slint_elab_opt: [    
-  ]
-  jg_slint_postelab_cmds: [
-  ]
-  jg_slint_clocks: [
-    src_clk,
-    dest_clk,
-  ]
-  jg_slint_resets: [
-    ~src_rst_n,
-    ~dest_rst_n,
-  ]
